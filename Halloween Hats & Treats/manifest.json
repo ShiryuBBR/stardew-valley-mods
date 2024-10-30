@@ -1,0 +1,12 @@
+{
+  "Name": "Halloween_Hats_Treats",
+  "Author": "ShiryuAndCasDrg",
+  "Version": "1.0.0",
+  "Description": "Adds new hats and treats in game",
+  "UniqueID": "ShiryuCasDrg.HatsTreats",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

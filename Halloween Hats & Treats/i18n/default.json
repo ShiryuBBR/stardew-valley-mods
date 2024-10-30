@@ -1,0 +1,36 @@
+{
+
+"Spring_Taffy.DisplayName": "Spring Taffy",
+"Spring_Taffy.Description": "Soft and chewy with a light, refreshing taste of spring air",
+"Summer_Sweets.DisplayName": "Summer Sweets",
+"Summer_Sweets.Description": "Bright, fruity flavors perfect for a hot summer day.",
+"Autumn_Caramels.DisplayName": "Autumn Caramels",
+"Autumn_Caramels.Description": "Soft caramels with cozy fall spices.",
+"Winter_Mints.DisplayName": "Winter Mints",
+"Winter_Mints.Description": "Cool, refreshing mints perfect for the winter chill.",
+"Joja_candy.DisplayName": "Joja Candy",
+"Joja_candy.Description": "A candy with the flat, sugary taste of Joja Cola. Not great.",
+"Royal_Candy.DisplayName": "Royal Candy",
+"Royal_Candy.Description": "A luxurious candy fit for royalty, with a rich, smooth flavor that melts in your mouth.",
+
+"Joja_candy.OI1": "Joja Candy",
+"Joja_candy.OI2": "A sugary treat from Joja Corp.",
+
+"Monocle.DisplayName": "Cursed Monocle",
+"Monocle.Description": "A monocle that notices details better left unseen.",
+"MoonMask.DisplayName": "Moon Mask",
+"MoonMask.Description": "A haunting moon mask, its look makes me feel uncomfortable.",
+"scarecrow.DisplayName": "Scarecrow Hat",
+"scarecrow.Description": "I took this hat off the nearest scarecrow.",
+"EliteScarecrow.DisplayName": "Elite Scarecrow Hat",
+"EliteScarecrow.Description": "A hat that makes crows think twice before coming near.",
+"strawscarecrowhat.DisplayName": "Old Scarecrow Mask",
+"strawscarecrowhat.Description": "An old scarecrow mask, it looks like it's about to collapse.",
+"pumpkin.DisplayName": "Pumpkin Hairpin",
+"pumpkin.Description": "Pumpkin hairpin capturing the Halloween spirit.",
+"spider.DisplayName": "Spider Hairpin",
+"spider.Description": "A spooky spider hairpin that surprisingly smells like fresh-baked treats.",
+"jojapin.DisplayName": "Joja Hairpin",
+"jojapin.Description": "Joja is not responsible for any injuries caused by this hairpin."
+
+}

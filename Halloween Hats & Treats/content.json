@@ -1,0 +1,355 @@
+{
+	"Format": "2.3.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "{{ModId}}/Candys",
+			"FromFile": "assets/Treats.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_Spring_Taffy": {
+					"Name": "{{ModId}}_Spring_Taffy",
+					"DisplayName": "{{i18n:Spring_Taffy.DisplayName}}",
+					"Description": "{{i18n:Spring_Taffy.Description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+					"Texture": "{{ModId}}/Candys",
+					"SpriteIndex": 0,
+					"Edibility": 20,
+					"IsDrink": false,
+					"ContextTags": [
+							"Candy",
+						],
+					"Buffs": [
+					{
+						"Duration": 90,
+						"CustomAttributes": {
+						"FarmingLevel": 1,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 1,
+						"MaxStamina": 0,
+						"MagnetRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0,},
+						},
+					]
+				},
+				"{{ModId}}_Summer_Sweets": {
+					"Name": "{{ModId}}_Summer_Sweets",
+					"DisplayName": "{{i18n:Summer_Sweets.DisplayName}}",
+					"Description": "{{i18n:Summer_Sweets.Description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+					"Texture": "{{ModId}}/Candys",
+					"SpriteIndex": 1,
+					"Edibility": 20,
+					"IsDrink": false,
+					"ContextTags": [
+							"Candy",
+						],
+					"Buffs": [
+					{
+						"Duration": 90,
+						"CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 25,
+						"MagnetRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0,},
+						},
+					]
+				},
+				"{{ModId}}_Autumn_Caramels": {
+					"Name": "{{ModId}}_Autumn_Caramels",
+					"DisplayName": "{{i18n:Autumn_Caramels.DisplayName}}",
+					"Description": "{{i18n:Autumn_Caramels.Description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+					"Texture": "{{ModId}}/Candys",
+					"SpriteIndex": 2,
+					"Edibility": 20,
+						"IsDrink": false,
+					"ContextTags": [
+							"Candy",
+						],
+					"Buffs": [
+					{
+						"Duration": 90,
+						"CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"Foraging": 0,
+						"MaxStamina": 0,
+						"MagnetRadius": 0,
+						"Speed": 0,
+						"Defense": 1,
+						"Attack": 1,},
+						},
+					]
+				},
+				"{{ModId}}_Winter_Mints": {
+					"Name": "{{ModId}}_Winter_Mints",
+					"DisplayName": "{{i18n:Winter_Mints.DisplayName}}",
+					"Description": "{{i18n:Winter_Mints.Description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+					"Texture": "{{ModId}}/Candys",
+					"SpriteIndex": 3,
+					"Edibility": 20,
+					"IsDrink": false,
+					"ContextTags": [
+						"Candy",
+					],
+					"Buffs": [
+					{
+						"Duration": 120,
+						"CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"Foraging": 0,
+						"MaxStamina": 0,
+						"MagnetRadius": 0,
+						"Speed": 0.5,
+						"Defense": 0,
+						"Attack": 0,},
+						},
+					]
+				},
+				"{{ModId}}_Joja_candy": {
+					"Name": "{{ModId}}_Joja_candy",
+					"DisplayName": "{{i18n:Joja_candy.DisplayName}}",
+					"Description": "{{i18n:Joja_candy.Description}}",
+					"Type": "Basic",
+					"Category": -20,
+					"Price": 100,
+					"Texture": "{{ModId}}/Candys",
+					"SpriteIndex": 4,
+					"Edibility": 5,
+					"IsDrink": false,
+					"ContextTags": [
+							"trash",
+						],
+					"Buffs": [
+					{
+						"Duration": 15,
+						"CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"Foraging": 0,
+						"MaxStamina": 0,
+						"MagnetRadius": 0,
+						"Speed": -1,
+						"Defense": 0,
+						"Attack": 0,},
+						},
+					]
+				},
+				"{{ModId}}_Royal_Candy": {
+					"Name": "{{ModId}}_Royal_Candy",
+					"DisplayName": "{{i18n:Royal_Candy.DisplayName}}",
+					"Description": "{{i18n:Royal_Candy.Description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 100,
+					"Texture": "{{ModId}}/Candys",
+					"SpriteIndex": 5,
+					"Edibility": 40,
+					"IsDrink": false,
+					"ContextTags": [
+							"Candy",
+						],
+					"Buffs": [
+					{
+						"Duration": 100,
+						"CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 1,
+						"LuckLevel": 2,
+						"Foraging": 0,
+						"MaxStamina": 0,
+						"MagnetRadius": 0,
+						"Speed": 1,
+						"Defense": 0,
+						"Attack": 0,},
+						},
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries": {
+				"{{ModId}}_Spring_Taffy": "245 3 400 1/25 5/{{ModId}}_Spring_Taffy",
+				"{{ModId}}_Summer_Sweets": "245 3 258 1/25 5/{{ModId}}_Summer_Sweets",
+				"{{ModId}}_Autumn_Caramels": "245 3 282 1/25 5/{{ModId}}_Autumn_Caramels",
+				"{{ModId}}_Winter_Mints": "245 3 414 1/25 5/{{ModId}}_Winter_Mints",
+				"{{ModId}}_Royal_Candy": "245 10 417 1/25 5/{{ModId}}_Royal_Candy"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"Entries": {
+				"{{ModId}}_Joja_candy": "{{i18n:Joja_candy.OI1}}/25/5/Basic -7/{{i18n:Joja_candy.OI2}}/food"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Saloon", "Items"],
+			"Entries": {
+				"{{ModId}}_Spring_Taffy_Recipe": {
+					"Condition": "SEASON spring",
+					"Id": "{{ModId}}_Spring_Taffy_Recipe",
+					"ItemId": "{{ModId}}_Spring_Taffy",
+					"Price": 400,
+					"IsRecipe": true
+				},
+				"{{ModId}}_Summer_Sweets_Recipe": {
+					"Condition": "SEASON summer",
+					"Id": "{{ModId}}_Summer_Sweets_Recipe",
+					"ItemId": "{{ModId}}_Summer_Sweets",
+					"Price": 400,
+					"IsRecipe": true
+				},
+				"{{ModId}}_Autumn_Caramels_Recipe": {
+					"Condition": "SEASON fall",
+					"Id": "{{ModId}}_Autumn_Caramels_Recipe",
+					"ItemId": "{{ModId}}_Autumn_Caramels",
+					"Price": 400,
+					"IsRecipe": true
+				},
+				"{{ModId}}_Winter_Mints_Recipe": {
+					"Condition": "SEASON winter",
+					"Id": "{{ModId}}_Winter_Mints_Recipe",
+					"ItemId": "{{ModId}}_Winter_Mints",
+					"Price": 400,
+					"IsRecipe": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Traveler", "Items"],
+			"Entries": {
+				"{{ModId}}_Royal_Candy_Recipe": {
+					"Id": "{{ModId}}_Royal_Candy_Recipe",
+					"ItemId": "{{ModId}}_Royal_Candy",
+					"Price": 5000,
+					"IsRecipe": true
+				}
+			}
+		},
+		{
+		  "Action": "EditData",
+		  "Target": "Data/GarbageCans",
+		  "TargetField": [
+			"AfterAll",
+			"Base_Fallback",
+			"RandomItemID"
+		  ],
+		  "Entries": {
+					"Joja_Candy": "(O){{ModId}}_Joja_candy",
+			}
+		},
+        {
+            "LogName": "Load Hats sprite",
+            "Action": "Load",
+            "Target": "Hats/shiryu.hats",
+            "FromFile": "assets/mod_hats.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": {
+				"shiryu.monocle": "Monocle/{{i18n:Monocle.Description}}/false/false//{{i18n:Monocle.DisplayName}}/0/Hats\\shiryu.hats",
+				"shiryu.moon": "Moon Mask/{{i18n:MoonMask.Description}}/hide/true//{{i18n:MoonMask.DisplayName}}/1/Hats\\shiryu.hats",
+				"shiryu.scarecrow": "scarecrow/{{i18n:scarecrow.Description}}/false/false//{{i18n:scarecrow.DisplayName}}/2/Hats\\shiryu.hats",
+				"shiryu.elitescarecrow": "EliteScarecrow/{{i18n:EliteScarecrow.Description}}/false/false//{{i18n:EliteScarecrow.DisplayName}}/3/Hats\\shiryu.hats",
+				"shiryu.strawscarecrow": "strawscarecrowhat/{{i18n:strawscarecrowhat.Description}}/false/true//{{i18n:strawscarecrowhat.DisplayName}}/4/Hats\\shiryu.hats",
+				"shiryu.pumpkin": "pumpkin/{{i18n:pumpkin.Description}}/false/false//{{i18n:pumpkin.DisplayName}}/5/Hats\\shiryu.hats",
+				"shiryu.spider": "spider/{{i18n:spider.Description}}/false/false//{{i18n:spider.DisplayName}}/6/Hats\\shiryu.hats",
+				"shiryu.jojapin": "jojapin/{{i18n:jojapin.Description}}/false/false//{{i18n:jojapin.DisplayName}}/7/Hats\\shiryu.hats",
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["HatMouse", "Items"],
+            "Entries": {
+                "shiryu.moon": {
+                    "Price": 100000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.moon",
+                    "ItemId": "shiryu.moon"
+                },
+                "shiryu.monocle": {
+                    "Price": 10000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.monocle",
+                    "ItemId": "shiryu.monocle"
+                },
+                "shiryu.scarecrow": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.scarecrow",
+                    "ItemId": "shiryu.scarecrow"
+                },
+                "shiryu.elitescarecrow": {
+                    "Price": 2500,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.elitescarecrow",
+                    "ItemId": "shiryu.elitescarecrow"
+                },
+                "shiryu.strawscarecrow": {
+                    "Price": 2000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.strawscarecrow",
+                    "ItemId": "shiryu.strawscarecrow"
+                },
+                "shiryu.pumpkin": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.pumpkin",
+                    "ItemId": "shiryu.pumpkin"
+				},
+                "shiryu.spider": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.spider",
+                    "ItemId": "shiryu.spider"
+				},
+                "shiryu.jojapin": {
+                    "Price": 5000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "shiryu.jojapin",
+                    "ItemId": "shiryu.jojapin"
+				}
+            }
+        }
+	]
+}
